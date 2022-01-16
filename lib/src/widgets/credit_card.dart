@@ -21,7 +21,7 @@ class CreditCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return TweenAnimationBuilder(
       tween: Tween<double>(begin: 0, end: angle),
-      duration: const Duration(seconds: 1),
+      duration: const Duration(milliseconds: 500),
       builder: (BuildContext context, double val, __) {
         return Transform(
           alignment: Alignment.center,
